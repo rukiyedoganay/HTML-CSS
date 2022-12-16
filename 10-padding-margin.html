@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        padding: 2rem; /* tüm kenarlardan (top,bottom,right,left) eşit olarak bu boşluğu bırakır.  */
+      }
+      .kutu1 {
+        background-color: yellowgreen;
+        padding: 1rem 3rem; /* ilk yazılan 1rem top ve bottom boşluklarını, diğer değer 3 rem de right ve leftteki boşlukları düzenler */
+      }
+      .kutu2 {
+        background-color: orange;
+        padding: 30px 20px 25px 50px; /* değerler yukardan başlayıp saat yönüne doğru yazılır. yani sırayla: top,right,bottom,left */
+        margin-top: 2rem; /* üstteki class ile arasında boşluk bırakır */
+        margin-left: 3rem; /* body ile arasına boşluk bırakır. soldaki boşluğunu ayarlar */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kutu1">
+      <h1>Başlık-1</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et laborum
+        vero, repellat hic illo sint sit incidunt libero veritatis, magni
+        doloremque deserunt tempore dolorem fugit! Dignissimos libero facere
+        nulla quod?
+      </p>
+    </div>
+    <div class="kutu2">
+      <h1>Başlık-2</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempora
+        animi quam error ipsum, laboriosam officiis accusamus nesciunt labore
+        expedita corrupti magni! Hic error, placeat corporis numquam nihil esse
+        animi!
+      </p>
+    </div>
+  </body>
+</html>
